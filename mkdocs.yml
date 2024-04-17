@@ -1,0 +1,15 @@
+site_name: Simplified Doc
+docs_dir: docs/
+site_author: Gosoft
+copyright: Copyright &copy; Gosoft Thailand Co.,Ldt
+site_url: https://simplifieddata.github.io/SimplifiedDoc/
+repo_name: SimplifiedDoc
+repo_url: https://github.com/SimplifiedData/SimplifiedDoc.git
+
+theme:
+  name: material
+  font:
+    text: ember
+  palette:
+    primary: orange
+    accent: orange
