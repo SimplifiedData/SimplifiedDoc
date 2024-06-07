@@ -1,9 +1,4 @@
-{% extends "base.html" %}
-
-{% block htmltitle %}
-  <title>Lorem ipsum dolor sit amet</title>
-{% endblock %}
-<!-- # Welcome to MkDocs
+# Welcome to Simplifile Doc
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
@@ -19,4 +14,4 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     mkdocs.yml    # The configuration file.
     docs/
         index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files. -->
+        ...       # Other markdown pages, images and other files.

@@ -3,7 +3,7 @@ docs_dir: docs/
 site_author: Gosoft
 copyright: Copyright &copy; Gosoft Thailand Co.,Ldt
 site_url: https://simplifieddata.github.io/SimplifiedDoc/
-repo_name: SimplifiedDoc
+repo_name: SimplifiedData/SimplifiedDoc
 repo_url: https://github.com/SimplifiedData/SimplifiedDoc.git
 
 theme:
@@ -11,5 +11,22 @@ theme:
   font:
     text: ember
   palette:
-    primary: orange
-    accent: orange
+    # - primary: lime
+    - scheme: default
+      media: "(prefers-color-scheme: light)"
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      media: "(prefers-color-scheme: dark)"
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - toc.integrate
+    
